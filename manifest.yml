@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: solvitoChat
+  host: solvitochat
+  disk_quota: 1024M
+  services:
+  - solvitoSupportie
+  env:
+    WORKSPACE_ID: f8eb5ca9-89bf-4dea-9806-94c1e2dd779f
